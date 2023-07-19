@@ -1,0 +1,13 @@
+.card{
+background-color: var(--background-color);
+color: var(--color-texto-secundario);
+text-align: center;
+}
+
+.img-width{
+    width: 20%;
+    margin: auto;
+}
+.card-title{
+    color: var(--color-texto);
+}

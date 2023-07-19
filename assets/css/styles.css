@@ -1,0 +1,12 @@
+:root{
+    --background-color: #303841;
+    --color-secundario: #2E4750;
+    --color-texto      : #F6C90E;
+    --color-texto-secundario: #fdfdfd;
+}
+
+
+body{
+    background-color:var(--background-color) !important;
+}
+

@@ -1,0 +1,10 @@
+.navbar{
+    background-color: var(--color-secundario) !important;
+    font-family: 'Work Sans', sans-serif;
+}
+.brand-name{
+    font-family: 'Nova Round', cursive;
+}
+.new-text-color{
+    color: var(--color-texto) !important;
+}
