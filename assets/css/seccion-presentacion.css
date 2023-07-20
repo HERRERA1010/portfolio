@@ -5,9 +5,20 @@ text-align: center;
 }
 
 .img-width{
-    width: 20%;
-    margin: auto;
+    
+	width:40%;
+	border-radius:  1%;
+    margin:20px auto;
+   
+   
 }
 .card-title{
     color: var(--color-texto);
+}
+.contenedor-img-perfil{
+    margin: auto;
+    width: 100%;
+    background-color: var(--color-texto);
+    
+   
 }
