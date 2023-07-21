@@ -1,24 +1,40 @@
 .card{
-background-color: var(--background-color);
-color: var(--color-texto-secundario);
+background-color: var(--color-texto);
+color: var(--color-secundario);
 text-align: center;
+border: none !important;
 }
 
-.img-width{
-    
-	width:40%;
-	border-radius:  1%;
-    margin:20px auto;
-   
-   
+.bg-color-amarillo{
+   background-color: var(--color-texto);
 }
-.card-title{
-    color: var(--color-texto);
-}
+
 .contenedor-img-perfil{
+    display: flex;
     margin: auto;
     width: 100%;
     background-color: var(--color-texto);
-    
-   
+
 }
+
+.img-width{
+    display: block;
+	width:40%;
+	border-radius:  1%;
+    margin: auto;
+}
+.card-title{
+    color: var(--color-secundario);
+}
+
+
+
+@media(max-width: 768px){
+    .img-width{
+        display: block;
+        width:80%;
+        border-radius:  1%;
+        margin: auto;
+    }
+};
+    
