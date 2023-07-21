@@ -27,14 +27,31 @@ border: none !important;
     color: var(--color-secundario);
 }
 
+.links-redes-sociales{
+    display:inline-block;
+    width: 50%;
+    margin: auto;
+   
+
+}
 
 
-@media(max-width: 768px){
+
+.enlaces  p > a {
+   margin: 10px 10px ;
+}
+
+.fa-brands{
+    color: var(--background-color);
+    font-size: 30px;
+}
+
+@media(max-width: 1200px){
     .img-width{
-        display: block;
         width:80%;
-        border-radius:  1%;
         margin: auto;
     }
 };
     
+
+
