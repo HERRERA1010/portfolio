@@ -1,0 +1,5 @@
+.card-custom-style{
+    background-color: var(--background-color) !important;
+    border: none;
+    color: var(--color-texto-secundario);
+}

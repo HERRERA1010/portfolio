@@ -1,4 +1,4 @@
-.card{
+.card-extra-style{
 background-color: var(--color-texto);
 color: var(--color-secundario);
 text-align: center;
@@ -14,7 +14,7 @@ border: none !important;
     margin: auto;
     width: 100%;
     background-color: var(--color-texto);
-
+    padding: 40px 0 0 0;
 }
 
 .img-width{
