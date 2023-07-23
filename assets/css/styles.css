@@ -14,5 +14,5 @@ body{
     color: var(--background-color);
 }
 .texto-secundario{
-    color: var(--color-texto-secundario);
+    color: var(--color-texto-secundario) !important;
 }
