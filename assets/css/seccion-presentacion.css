@@ -1,57 +1,75 @@
-.card-extra-style{
-background-color: var(--color-texto);
-color: var(--color-secundario);
-text-align: center;
-border: none !important;
+.card-extra-style {
+  background-color: var(--color-texto);
+  color: var(--color-secundario);
+  text-align: center;
+  border: none !important;
 }
 
-.bg-color-amarillo{
-   background-color: var(--color-texto);
+.bg-color-amarillo {
+  background-color: var(--color-texto);
 }
 
-.contenedor-img-perfil{
+.contenedor-img-perfil {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  /* background-color: var(--color-texto);*/
+  padding: 40px 0 0 0;
+  position: relative;
+  rotate: 10deg;
+}
+
+.img-width {
+  display: block;
+  width: 40%;
+  border-radius: 1%;
+  margin: auto;
+  box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
+}
+.card-title {
+  color: var(--color-secundario);
+}
+
+.links-redes-sociales {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+}
+
+.enlaces p > a {
+  margin: 10px 10px;
+}
+
+.fa-brands {
+  color: var(--background-color);
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+
+  .contenedor-img-perfil {
+    margin-bottom: 60px;
     display: flex;
     margin: auto;
-    width: 100%;
-    background-color: var(--color-texto);
-    padding: 40px 0 0 0;
-}
-
-.img-width{
-    display: block;
-	width:40%;
-	border-radius:  1%;
-    margin: auto;
-}
-.card-title{
-    color: var(--color-secundario);
-}
-
-.links-redes-sociales{
-    display:inline-block;
     width: 50%;
-    margin: auto;
-   
-
-}
-
-
-
-.enlaces  p > a {
-   margin: 10px 10px ;
-}
-
-.fa-brands{
-    color: var(--background-color);
-    font-size: 30px;
-}
-
-@media(max-width: 1200px){
-    .img-width{
-        width:80%;
-        margin: auto;
-    }
-};
+    padding: 40px 0 0 0;
+    position:0;
+    rotate: 0deg;
     
-
+  }
+  .img-width {
+    display: block;
+    width: 80%;
+    border-radius: 1%;
+    margin: auto;
+    box-shadow:  #000 0 0 0 0;
+  }
+}
+@media (max-width: 725px) {
+    .img-width {
+        width: 100%;
+      }
+}
 

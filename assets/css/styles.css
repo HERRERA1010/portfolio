@@ -10,3 +10,9 @@ body{
     background-color:var(--background-color) !important;
 }
 
+.color-dark{
+    color: var(--background-color);
+}
+.texto-secundario{
+    color: var(--color-texto-secundario);
+}
