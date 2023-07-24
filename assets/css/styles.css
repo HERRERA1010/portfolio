@@ -3,6 +3,7 @@
     --color-secundario: #2E4750;
     --color-texto      : #F6C90E;
     --color-texto-secundario: #fdfdfd;
+    --bg-color-amarillo: #f6c90e;
 }
 
 
@@ -16,3 +17,9 @@ body{
 .texto-secundario{
     color: var(--color-texto-secundario) !important;
 }
+
+.fa-adcional{
+    font-size: 40px;
+    color: var(--background-color);
+}
+

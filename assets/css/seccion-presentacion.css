@@ -42,11 +42,6 @@
   margin: 5px 5px;
 }
 
-.fa-brands {
-  color: var(--background-color);
-  font-size: 30px;
-}
-
 @media (max-width: 1024px) {
 
   .contenedor-img-perfil {

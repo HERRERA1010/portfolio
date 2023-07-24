@@ -23,10 +23,12 @@
   <link rel="stylesheet" href="assets/css/barra-nav.css">
   <link rel="stylesheet" href="assets/css/seccion-presentacion.css">
   <link rel="stylesheet" href="assets/css/about-me.css">
+  <link rel="stylesheet" href="/assets/css/formacion.css">
   <title>Fermin Herrera</title>
 </head>
 
 <body>
+  <!--barra de navegacion-->
   <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container ">
 
@@ -56,8 +58,8 @@
       </div>
     </div>
   </nav>
-
-  <div class="container-fluid bg-color-amarillo">
+<!--seccion presentacion-->
+  <div class="container-fluid bg-color-amarillo mt-5 p-5 mb-5">
     <div class="container bg-color-amarillo">
       <div class="row">
         <div class="col-12 col-md-6 col-xxl-6">
@@ -89,7 +91,8 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <!--seccion acerca de mi-->
+  <div class="container mt-5">
     <div class="card mt-5 card-custom-style">
       <div class="card-header">
         Acerca de mi
@@ -100,33 +103,84 @@
             formado en la carrera de ingenieria en sistemas, tambien he tomado
             bootcamps sobre Javascript, html, css, boostrap, entre otros.
           </p>
-          <footer class="blockquote-footer">Frase favorita "“No puedes construir una reputación con base en lo que vas a
+          <footer class="blockquote-footer">Frase favorita "No puedes construir una reputación con base en lo que vas a
             hacer." <cite title="Source Title">Henry Ford.</cite></footer>
         </blockquote>
       </div>
     </div>
   </div>
-    <div class="container mt-5 bg-warning">
+  <!--seccion skills-->
+    <div class="container mt-5 bg-warning p-5 mb-5">
       <div class="row text-center ">
         <h2 class="color-dark" >SKILLS</h2>
-        <div class="col p-3 "><p><i class="fa-brands fa-html5"></i></p>HTML</div>
-        <div class="col p-3 "><p><i class="fa-brands fa-css3-alt"></i></p>CSS</div>
-        <div class="col p-3 "><p><i class="fa-brands fa-square-js"></i></p>JAVASCRIPT</div>
-        <div class="col p-3 "><p><i class="fa-brands fa-bootstrap"></i></p>BOOSTRAP</div>
-        <div class="col p-3 "><p><i class="fa-brands fa-react"></i></p>REACT</div>
-        <div class="col p-3 "><p><i class="fa-brands fa-node"></i></p>NODE</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-html5"></i></p>HTML</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-css3-alt"></i></p>CSS</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-square-js"></i></p>JAVASCRIPT</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-bootstrap"></i></p>BOOSTRAP</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-react"></i></p>REACT</div>
+        <div class="col p-3 "><p><i class="fa-brands fa-adcional fa-node"></i></p>NODE</div>
       </div>
     </div>
-    <div class="container mt-5 ">
-      <div class="row text-center texto-secundario ">
-        <h2 class="texto-secundario " >HOBBIES</h2>
-        <div class="col p-3 "><p><i class="fa-solid fa-kitchen-set"></i></p>COCINAR</div>
-        <div class="col p-3 "><p><i class="fa-solid fa-terminal"></i></p>PROGRAMAR</div>
-        <div class="col p-3 "><p><i class="fa-solid fa-gamepad"></i></p>VIDEO JUEGOS</div>
-        <div class="col p-3 "><p><i class="fa-solid fa-book"></i></p>LEER</div>
-     
+
+        <!--seccion formacion-->
+        <div class="container" >
+          <h2 class="text-center texto-secundario" >FORMACION</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col" data-aos="zoom-in-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class="card h-100">
+              <img src="/assets/img/coursera.jpg" class="card-img-top imagen-width"  alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Johns Hopkins</h5>
+                <p class="card-text">Curso enfocado en las bases de HTML,CSS, Y JAVASCRIPT.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class="card h-100">
+              <img src="/assets/img/UC-c1caa254-3e71-4633-9219-8287f307aef0.jpg" class="card-img-top imagen-width" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Udemy</h5>
+                <p class="card-text">Curso enfocado a CSS RESPONSIVE, SASS, GRID, FLEXBOX, BOOSTRAP.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class="card h-100">
+              <img src="/assets/img/img1.jpg" class="card-img-top imagen-width" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Udemy</h5>
+                <p class="card-text">Bootcamp enfocado en las bases de 
+                  HTML, CSS, Javascript, Node, React, MongoDB.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--seccion hobbies-->
+    <div class="container mt-5  mb-5 " data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="row text-center p-5 color-dark bg-color-amarillo">
+        <h2 class="color-dark " >HOBBIES</h2>
+        <div class="col p-3 "><p><i class="fa-solid fa-adcional fa-kitchen-set"></i></p>COCINAR</div>
+        <div class="col p-3 "><p><i class="fa-solid fa-adcional fa-terminal"></i></p>PROGRAMAR</div>
+        <div class="col p-3 "><p><i class="fa-solid fa-adcional fa-gamepad"></i></p>VIDEO JUEGOS</div>
+        <div class="col p-3 "><p><i class="fa-solid fa-adcional fa-book"></i></p>LEER</div>
       </div>
     </div>
+
+
+
+
+
+
+
+    
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
