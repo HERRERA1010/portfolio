@@ -13,8 +13,6 @@
   display: flex;
   margin: auto;
   width: 100%;
-  /* background-color: var(--color-texto);*/
- 
   position: relative;
   rotate: 10deg;
 }
@@ -52,7 +50,6 @@
     padding: 10px 0 0 0;
     position:0;
     rotate: 0deg;
-    
   }
   .img-width {
     display: block;
@@ -67,4 +64,3 @@
         width: 100%;
       }
 }
-

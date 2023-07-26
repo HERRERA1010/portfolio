@@ -6,21 +6,22 @@
     --bg-color-amarillo: #f6c90e;
 }
 
-
 body{
     background-color:var(--background-color) !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* CLASES GENERALES*/
+.color-secundario{
+    background-color: var(--color-secundario);
+}
 .color-dark{
     color: var(--background-color);
 }
 .texto-secundario{
     color: var(--color-texto-secundario) !important;
 }
-
 .fa-adcional{
     font-size: 40px;
     color: var(--background-color);
