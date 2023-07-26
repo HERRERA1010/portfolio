@@ -19,7 +19,7 @@
 
 .img-width {
   display: block;
-  width: 40%;
+  width: 50%;
   border-radius: 1%;
   margin: auto;
   box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
@@ -63,4 +63,5 @@
     .img-width {
         width: 100%;
       }
+ 
 }
