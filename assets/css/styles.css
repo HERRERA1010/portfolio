@@ -2,7 +2,7 @@
     --background-color: #303841;
     --color-secundario: #2E4750;
     --color-texto      : #F6C90E;
-    --color-texto-secundario: #fdfdfd;
+    --color-texto-secundario: #eae7e7;
     --bg-color-amarillo: #f6c90e;
 }
 
@@ -14,6 +14,13 @@ body{
 }
 /* CLASES GENERALES*/
 
+.color-bg-principal{
+    background-color: var(--background-color);
+}
+
+.background-amarillo{
+    background-color: var(--bg-color-amarillo);
+}
 
 .color-secundario{
     background-color: var(--color-secundario);

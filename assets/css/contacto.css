@@ -1,0 +1,17 @@
+.img-robot{
+    height: 650px;
+    margin: auto;
+    width: 65%;
+    display: flex ;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.robot-grid-item{
+    
+}
+
+.grid-item-2{
+   }
