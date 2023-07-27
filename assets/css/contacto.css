@@ -1,7 +1,7 @@
 .img-robot{
-    height: 580px;
+    height: 100%;
     margin: auto;
-    width: 70%;
+    width: 60%;
     display: flex ;
     align-items: center;
     align-content: center;
@@ -9,9 +9,16 @@
     padding-bottom: 50px;
 }
 
-.robot-grid-item{
-    
+
+.wrapper > h2{
+  padding-top: 50px;
 }
 
-.grid-item-2{
-   }
+input, textarea{
+    border: none;
+    background-color: var(--background-color);
+    border-radius: 1px;
+    color: var(--color-texto);
+    
+    
+}
