@@ -36,3 +36,12 @@ body{
     color: var(--background-color);
 }
 
+.cheems{
+  
+    height: 40px;
+    position: fixed;
+    z-index: 999;
+    bottom: -15px;
+    right: -25px;
+    
+}

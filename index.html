@@ -31,7 +31,7 @@
 
 <body>
   <!--barra de navegacion-->
-  <nav class="navbar navbar-expand-lg navbar-light ">
+  <nav class="navbar navbar-expand-lg navbar-light " id="inicio">
     <div class="container ">
 
       <a class="navbar-brand new-text-color brand-name" href="#">FERMIN HERRERA </a>
@@ -63,24 +63,24 @@
     </div>
   </nav>
   <!--seccion presentacion-->
-  <div class="container bg-color-amarillo mt-5 p-1 mb-5">
+  <div class="container bg-color-amarillo  p-1 mb-5">
     <div class="container bg-color-amarillo">
       <div class="row">
         <div class="col-12 col-md-6 col-xxl-6">
-          <div data-aos="zoom-out-right" data-aos-duration="3000" class="contenedor-img-perfil">
+          <div data-aos="zoom-out-right" data-aos-duration="3000" class="contenedor-img-perfil ">
             <img src="assets/img/perfil.jpeg" class="card-img-top img-width" alt="...">
           </div>
         </div>
-        <div class="col" data-aos="fade-left">
-          <div class="card mb-3 card-extra-style">
-            <div class="card-body">
-              <h5 class="card-title fs-2">WEB DEMVELOPER</h5>
-              <p class="card-text ">Mi nombre es fermin herrera, actualmente
-                me estoy especializando como front end developer, en le programa de
+        <div class="col alineamiento" data-aos="fade-left ">
+          <div class="card mb-3 card-extra-style alineamiento">
+            <div class="card-body alineamiento">
+              <h5 class="card-title fs-2 text-center">WEB DEMVELOPER</h5>
+              <p class="card-text  text-left m-auto">Mi nombre es fermin herrera, actualmente estoy
+                especializandome como front end developer, en le programa de
                 ORALCE NEXT EDUCATION.
               </p>
-              <section class=" links-redes-sociales  ">
-                <div class="enlaces">
+              <section class=" links-redes-sociales mt-2 ">
+                <div class="enlaces ">
                   <p>
                     <a class="enlace" href="https://github.com/HERRERA1010" target="_blank"><i
                         class="fa-brands fa-adcional fa-github "></i></a>
@@ -104,13 +104,9 @@
       </div>
       <div class="card-body" data-aos="zoom-out-right" data-aos-duration="2000">
         <blockquote class="blockquote mb-0">
-          <p> Apasionado por la programacion y el mundo de la tecnologia,
-            me gusta trabajar en equipo y siempre estoy abierto a nuevos retos y aprender nuevas tecnologias, he tomado
-            bootcamps sobre Javascript, html, css, boostrap, entre otros.
+          <p> Apasionado por la programación, me gusta trabajar en equipo y siempre estoy abierto a nuevos retos, las tecnológicas que he aprendido son, JAVASCRIPT, HTML, CSS, BOOTSTRAP, entre otros.
           </p>
-          <footer class="blockquote-footer">Frase favorita "It's better to be at the
-            bottom of the ladder you want to climb than the top of one you don't" <cite title="Source Title">JIM from
-              "the office"</cite></footer>
+          <footer class="blockquote-footer">Frase favorita "Code is art that does something" <cite title="Source Title">A stiker on my laptop</cite></footer>
         </blockquote>
       </div>
     </div>
@@ -175,6 +171,7 @@
       </div>
     </div>
   </div>
+
   <!--seccion hobbies-->
   <div  class="container mt-5  mb-5 " data-aos="fade-up" data-aos-duration="2000" id="hobbies">
     <div  class="row text-center p-5 color-dark bg-color-amarillo">
@@ -206,7 +203,7 @@
           </button>
         </p>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 alineamiento">
         <div class="card-body text-center">
           <h5 class="text-warning">Pagina para un crematorio de mascotas.</h5>
           <div class="pagina-descripcion">
@@ -222,7 +219,14 @@
   <div class="card mb-3 container color-bg-principal " data-aos="fade-up" data-aos-anchor-placement="top-bottom"
     data-aos-duration="2000">
     <div class="row g-0">
-      <div class="col-md-8">
+      <div class="col-md-4 pt-3 text-center">
+        <img src="assets/img/wellness.png" class="img-fluid rounded-start " alt="...">
+        <p class="card-text text-center mt-3 pb-2"><button type="button" class="btn btn-warning">
+            <a class="nav-link color-dark" href="https://wellnesstoshare.com/" target="_blank">visitar pagina</a>
+          </button>
+        </p>
+      </div>
+      <div class="col-md-8 alineamiento">
         <div class="card-body text-center">
           <div class="pagina-descripcion">
             <h5 class="text-warning">Pagina para una tienda de productos
@@ -234,13 +238,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 pt-3 text-center">
-        <img src="assets/img/wellness.png" class="img-fluid rounded-start " alt="...">
-        <p class="card-text text-center mt-3 pb-2"><button type="button" class="btn btn-warning">
-            <a class="nav-link color-dark" href="https://wellnesstoshare.com/" target="_blank">visitar pagina</a>
-          </button>
-        </p>
-      </div>
+
     </div>
   </div>
   <!--seccion de contacto-->
@@ -249,7 +247,7 @@
       <div class="col robot-grid-item d-none d-lg-block d-xl-block d-xxl-block">
         <img class="img-robot" src="assets/img/yellowrobot.jpg" alt="imagen robot hablando por telefono">
       </div>
-      <div class="col grid-item-2">
+      <div class="col grid-item-2 alineamiento">
         <div class="wrapper text-center">
           <h2 class="color-dark text-center ">CONTACTO</h2>
           <form action="https://formsubmit.co/herrera.ancona@gmail.com" method="POST">
@@ -265,29 +263,22 @@
             <label for="email">Comentarios</label><br>
             <textarea name="comments" cols="25" rows="5"></textarea><br>
 
-            <input class="mb-3" type="submit" value="Enviar">
+            <input class="mb-2" type="submit" value="Enviar">
 
             <input type="hidden" name="_next" value="assets/screens/mensaje-exitoso.html">
             <input type="hidden" name="_captcha" value="false">
-
           </form>
         </div>
-
       </div>
-
     </div>
   </div>
 
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
-      
+      <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Inicio</a></li>    
     </ul>
-    <p class="text-center text-muted">© Web creada por fermin herrera.</p>
+    <p class="text-center text-muted">© Creado por Fermin Herrera</p>
   </footer>
-
-
-
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -298,6 +289,7 @@
     AOS.init();
   </script>
 
+  <img class="cheems" src="assets/img/cheems.png" alt="perrito cheems">
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

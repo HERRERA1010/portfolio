@@ -1,7 +1,6 @@
 .card-extra-style {
   background-color: var(--color-texto);
   color: var(--color-secundario);
-  text-align: center;
   border: none !important;
 }
 
@@ -32,8 +31,9 @@
 
 .links-redes-sociales {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   margin: auto;
+  text-align: center;
 }
 
 .enlaces p > a {
