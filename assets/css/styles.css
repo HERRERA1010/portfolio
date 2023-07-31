@@ -10,7 +10,10 @@ body{
     background-color:var(--background-color) !important;
     margin: 0;
     padding: 0;
-  
+}
+
+section[id]{
+    scroll-margin-top: 150px;
 }
 /* CLASES GENERALES*/
 
