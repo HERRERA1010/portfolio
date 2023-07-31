@@ -14,16 +14,17 @@
   width: 100%;
   position: relative;
   rotate: 10deg;
+  padding-top: 50px;
 }
 
 .img-width {
   display: block;
   width: 50%;
-  border-radius: 1%;
+  border-radius: 5px;
   margin: auto;
-  box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
-  -webkit-box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: -30px 59px 40px -18px rgba(0, 0, 0, 0.61);
+  box-shadow: -3px 5px 37px -1px rgba(0,0,0,1);
+  -webkit-box-shadow: -3px 5px 37px -1px rgba(0,0,0,1);
+  -moz-box-shadow: -3px 5px 37px -1px rgba(0,0,0,1);
 }
 .card-title {
   color: var(--color-secundario);
@@ -47,21 +48,20 @@
     display: flex;
     margin: auto;
     width: 70%;
-    padding: 10px 0 0 0;
+   
     position:0;
-    rotate: 0deg;
+    rotate: 10deg;
   }
   .img-width {
     display: block;
     width: 80%;
-    border-radius: 1%;
     margin: auto;
-    box-shadow:  #000 0 0 0 0;
+ 
   }
 }
 @media (max-width: 725px) {
     .img-width {
         width: 100%;
+      
       }
- 
 }

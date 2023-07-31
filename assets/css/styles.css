@@ -35,9 +35,7 @@ body{
     font-size: 40px;
     color: var(--background-color);
 }
-
 .cheems{
-  
     height: 40px;
     position: fixed;
     z-index: 999;
