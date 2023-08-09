@@ -48,20 +48,16 @@
     display: flex;
     margin: auto;
     width: 70%;
-   
     position:0;
-   
   }
   .img-width {
     display: block;
     width: 80%;
     margin: auto;
- 
   }
 }
 @media (max-width: 725px) {
     .img-width {
         width: 100%;
-      
       }
 }
