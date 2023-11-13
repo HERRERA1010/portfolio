@@ -34,7 +34,7 @@ section[id]{
     color: var(--color-texto-secundario) !important;
 }
 .fa-adcional{
-    padding: 20px;
+    padding: 15px;
     font-size: 40px;
     color: var(--background-color);
 }
